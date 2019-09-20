@@ -2,8 +2,9 @@ import * as effects from "redux-saga/effects";
 import * as constants from "../actions/constants";
 
 //function* processTaskTimeConsuming() {
+//  yield effects.delay(1000 + 1000 * Math.random());
 //  if (Math.random() > 0.5) {
-//    return yield effects.delay(1000 + 1000 * Math.random());
+//    return true;
 //  } else {
 //    throw new Error("Something is not right!");
 //  }
