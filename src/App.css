@@ -1,0 +1,52 @@
+.task {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 4px;
+}
+.task > div {
+  color: white;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.IDLE {
+  background-color: #512c62;
+}
+.FAILED {
+  background-color: #c93838;
+}
+
+.STARTED {
+  background-color: #f75f00;
+}
+
+.DONE {
+  background-color: #43ab92;
+}
+
+.taskviewer {
+  width: 400px;
+  margin: 0 auto;
+}
+ul {
+  list-style-type: none;
+}
+
+.taskbutton {
+  height: 2em;
+}
+
+button {
+  background-color: white;
+  border: 1px solid #aaa;
+  color: #322;
+  padding: 4px;
+  margin: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
