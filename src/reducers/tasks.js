@@ -3,9 +3,10 @@ import { statuses } from "../actions/constants";
 
 const initialState = [];
 
-const newTask = name => {
-  return { name, status: statuses.IDLE };
-};
+const newTask = name => ({
+  name,
+  status: statuses.IDLE
+});
 
 function updateInArray(array, action) {
   return array.map((item, index) => {
@@ -40,9 +41,7 @@ const updateStatusIfCurrent = (
   currentAccepableStatus
 ) => {
   const task = tasks.find(task => task.name === name);
-  console.log(task.status, currentAccepableStatus);
   if (task && task.status === currentAccepableStatus) {
-    console.log("update");
     return updateStatus(tasks, name, newStatus);
   }
   return tasks;
