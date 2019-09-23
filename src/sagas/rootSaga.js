@@ -2,10 +2,15 @@ import * as effects from "redux-saga/effects";
 import * as constants from "../actions/constants";
 
 //function* processTaskTimeConsuming() {
-//  return yield effects.delay(1000 + 1000 * Math.random());
+//  yield effects.delay(1000 + 1000 * Math.random());
+//  if (Math.random() > 0.5) {
+//    return true;
+//  } else {
+//    throw new Error("Something is not right!");
+//  }
 //}
 
-//function processTaskTimeConsuming1() {
+//function processTaskTimeConsumingReal() {
 //  return fetch("https://swapi.co/api/people/1/")
 //    .then(response => response)
 //    .catch(e => {
