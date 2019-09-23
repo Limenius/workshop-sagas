@@ -1,4 +1,4 @@
-export const adjectives = [
+module.exports = [
   "aback",
   "abaft",
   "abandoned",

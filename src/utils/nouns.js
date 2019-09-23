@@ -1,4 +1,4 @@
-export const nouns = [
+module.exports = [
   "accelerator",
   "accordion",
   "account",
