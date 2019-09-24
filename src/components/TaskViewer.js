@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import * as constants from "../actions/constants";
-import { randomName } from "../utils/nameGen";
+import randomName from "../utils/nameGen";
 import { Task } from "./Task";
 import { statuses } from "../actions/constants";
 import posed, { PoseGroup } from "react-pose";
